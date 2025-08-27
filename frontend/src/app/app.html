@@ -1,3 +1,18 @@
 <!-- app.html -->
-<router-outlet></router-outlet>
+<div class="app-container">
+  <!-- Fixed Header -->
+  <header class="app-header">
+    <app-header></app-header>
+  </header>
 
+  <!-- Main Content -->
+  <main class="app-main">
+    <router-outlet></router-outlet>
+    <!-- Or directly show movies component if not using routes -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <app-footer></app-footer>
+  </footer>
+</div>

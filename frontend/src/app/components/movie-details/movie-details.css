@@ -1,31 +1,103 @@
-.movie-details-container {
+/* Movie details container */
+.movie-details {
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  padding: 2rem;
+  gap: 24px;
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
 }
 
-.movie-details-container img {
-  max-width: 400px;
-  width: 100%;
-  border-radius: 1rem;
+/* Poster */
+.poster-wrapper img {
+  width: 220px;
+  height: auto;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-.movie-info {
+/* Movie content section */
+.movie-content {
+  display: flex;
+  flex-direction: column;
   flex: 1;
 }
 
-button {
-  margin-top: 1rem;
-  background: #2563eb;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  transition: background 0.2s ease;
+/* Title */
+.movie-content h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 12px;
+  color: #222;
 }
 
-button:hover {
-  background: #1d4ed8;
+/* Genres & Rating */
+.movie-content .genres,
+.movie-content .rating {
+  font-size: 14px;
+  margin: 6px 0;
+  color: #555;
+}
+
+/* Overview / description */
+.movie-content .overview {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 14px 0;
+  color: #444;
+}
+
+/* Back button */
+.movie-content button {
+  width: fit-content;
+  padding: 10px 20px;
+  background: #ffe353;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #222;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.movie-content button:hover {
+  background: #ffdb1f;
+  transform: translateY(-2px);
+}
+
+/* Loading & Error States */
+.loading,
+.error {
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 0;
+  color: #555;
+}
+
+.error {
+  color: #e63946;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .movie-details {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .poster-wrapper img {
+    width: 70%;
+  }
+
+  .movie-content button {
+    margin: 12px auto 0;
+  }
 }

@@ -1,0 +1,12 @@
+<div *ngIf="isLoading" class="loading">Loading recommendations...</div>
+<div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+<div *ngIf="recommendations.length > 0" class="recommendations">
+  <h3>Recommended Movies</h3>
+  <div class="recommendations-grid">
+    <div *ngFor="let rec of recommendations" class="rec-card">
+      <img [src]="rec.poster" alt="{{ rec.title }}">
+      <h4>{{ rec.title }}</h4>
+    </div>
+  </div>
+</div>

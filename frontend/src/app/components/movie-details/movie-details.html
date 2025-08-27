@@ -1,12 +1,23 @@
-<div *ngIf="isLoading">Loading movie details...</div>
-<div *ngIf="errorMessage">{{ errorMessage }}</div>
+<div *ngIf="isLoading" class="loading">Loading movie details...</div>
+<div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
 
 <div *ngIf="movie && !isLoading" class="movie-details">
-  <img [src]="movie.poster || 'https://via.placeholder.com/400x600?text=No+Image'" 
-       alt="{{ movie.title }}" />
-  <h1>{{ movie.title }} ({{ movie.year }})</h1>
-  <p><strong>Genres:</strong> {{ movie.genres.join(', ') }}</p>
-  <p><strong>Rating:</strong> ⭐ {{ movie.rating }}</p>
-  <p>{{ movie.overview }}</p>
-  <button routerLink="/movies">Back to Movies</button>
+  <div class="poster-wrapper">
+    <img [src]="movie.poster || 'https://via.placeholder.com/400x600?text=No+Image'" 
+         [alt]="movie.title" />
+  </div>
+
+  <div class="movie-content">
+    <h1>{{ movie.title }} <span *ngIf="movie.year">({{ movie.year }})</span></h1>
+
+    <p class="genres"><strong>Genres:</strong> {{ movie.genres.join(', ') }}</p>
+    <p class="rating"><strong>Rating:</strong> ⭐ {{ movie.rating || 'N/A' }}</p>
+
+    <p class="overview">{{ movie.overview }}</p>
+
+    <button routerLink="/movies">Back to Movies</button>
+  </div>
+  <div class="recommendations-section">
+<app-recommendations [movieId]="movie.movieId"></app-recommendations>
+  </div>
 </div>
