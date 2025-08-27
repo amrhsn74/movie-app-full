@@ -16,7 +16,7 @@ export class MoviesComponent {
   errorMessage: string | null = null;
 
   currentPage = 1;
-  itemsPerPage = 8;
+  itemsPerPage = 10;
 
   constructor(private http: HttpClient) {
     this.fetchMovies();
