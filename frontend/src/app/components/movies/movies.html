@@ -1,0 +1,30 @@
+<div *ngIf="isLoading">Loading movies...</div>
+
+<div class="movies-container" *ngIf="!isLoading">
+  <div class="movie-card" *ngFor="let movie of paginatedMovies">
+    <img [src]="movie.poster || 'https://via.placeholder.com/400x600?text=No+Image'" 
+         alt="{{ movie.title }}" />
+    <h3>{{ movie.title }} ({{ movie.year }})</h3>
+    <p><strong>Genres:</strong> {{ movie.genres.join(', ') }}</p>
+    <p><strong>Rating:</strong> ⭐ {{ movie.rating }}</p>
+    <p>{{ movie.overview }}</p>
+    <button [routerLink]="['/movies', movie._id]">Details</button>
+  </div>
+</div>
+
+<!-- Pagination -->
+<div class="pagination" *ngIf="!isLoading">
+  <button (click)="changePage(currentPage - 1)" [disabled]="currentPage === 1">
+    Prev
+  </button>
+
+  <button *ngFor="let page of [].constructor(totalPages()); let i = index"
+          (click)="changePage(i + 1)"
+          [class.active]="currentPage === i + 1">
+    {{ i + 1 }}
+  </button>
+
+  <button (click)="changePage(currentPage + 1)" [disabled]="currentPage === totalPages()">
+    Next
+  </button>
+</div>

@@ -1,0 +1,632 @@
+[
+  {
+    "_id": "a1",
+    "name": "Leonardo DiCaprio",
+    "dob": "1978-05-04",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/1.jpg",
+    "movies": [
+      "m25",
+      "m51",
+      "m27"
+    ]
+  },
+  {
+    "_id": "a2",
+    "name": "Christian Bale",
+    "dob": "1954-10-27",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/2.jpg",
+    "movies": [
+      "m45",
+      "m25",
+      "m39",
+      "m8"
+    ]
+  },
+  {
+    "_id": "a3",
+    "name": "Heath Ledger",
+    "dob": "1959-07-27",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/3.jpg",
+    "movies": [
+      "m7",
+      "m49",
+      "m31",
+      "m53"
+    ]
+  },
+  {
+    "_id": "a4",
+    "name": "Matthew McConaughey",
+    "dob": "1994-06-23",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/4.jpg",
+    "movies": [
+      "m32",
+      "m33",
+      "m43",
+      "m8"
+    ]
+  },
+  {
+    "_id": "a5",
+    "name": "Tom Hanks",
+    "dob": "1957-09-19",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/5.jpg",
+    "movies": [
+      "m47",
+      "m7",
+      "m52"
+    ]
+  },
+  {
+    "_id": "a6",
+    "name": "Morgan Freeman",
+    "dob": "1992-11-06",
+    "nationality": "Canadian",
+    "profile_img": "https://example.com/actors/6.jpg",
+    "movies": [
+      "m25",
+      "m42",
+      "m43",
+      "m15",
+      "m9"
+    ]
+  },
+  {
+    "_id": "a7",
+    "name": "Brad Pitt",
+    "dob": "1984-12-06",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/7.jpg",
+    "movies": [
+      "m47",
+      "m17",
+      "m26",
+      "m30"
+    ]
+  },
+  {
+    "_id": "a8",
+    "name": "Angelina Jolie",
+    "dob": "1990-05-08",
+    "nationality": "Canadian",
+    "profile_img": "https://example.com/actors/8.jpg",
+    "movies": [
+      "m18",
+      "m16"
+    ]
+  },
+  {
+    "_id": "a9",
+    "name": "Robert Downey Jr.",
+    "dob": "1964-08-04",
+    "nationality": "Canadian",
+    "profile_img": "https://example.com/actors/9.jpg",
+    "movies": [
+      "m32",
+      "m21",
+      "m35",
+      "m27"
+    ]
+  },
+  {
+    "_id": "a10",
+    "name": "Chris Evans",
+    "dob": "1955-12-08",
+    "nationality": "Canadian",
+    "profile_img": "https://example.com/actors/10.jpg",
+    "movies": [
+      "m31",
+      "m43",
+      "m2",
+      "m47"
+    ]
+  },
+  {
+    "_id": "a11",
+    "name": "Scarlett Johansson",
+    "dob": "1961-12-14",
+    "nationality": "American",
+    "profile_img": "https://example.com/actors/11.jpg",
+    "movies": [
+      "m25",
+      "m48",
+      "m51"
+    ]
+  },
+  {
+    "_id": "a12",
+    "name": "Chris Hemsworth",
+    "dob": "1982-01-22",
+    "nationality": "Canadian",
+    "profile_img": "https://example.com/actors/12.jpg",
+    "movies": [
+      "m43",
+      "m46",
+      "m23"
+    ]
+  },
+  {
+    "_id": "a13",
+    "name": "Mark Ruffalo",
+    "dob": "1962-06-04",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/13.jpg",
+    "movies": [
+      "m43",
+      "m32",
+      "m3"
+    ]
+  },
+  {
+    "_id": "a14",
+    "name": "Tom Holland",
+    "dob": "1979-02-21",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/14.jpg",
+    "movies": [
+      "m38",
+      "m25"
+    ]
+  },
+  {
+    "_id": "a15",
+    "name": "Benedict Cumberbatch",
+    "dob": "1994-04-27",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/15.jpg",
+    "movies": [
+      "m18",
+      "m39",
+      "m13",
+      "m33"
+    ]
+  },
+  {
+    "_id": "a16",
+    "name": "Chadwick Boseman",
+    "dob": "1987-03-10",
+    "nationality": "Canadian",
+    "profile_img": "https://example.com/actors/16.jpg",
+    "movies": [
+      "m16",
+      "m8"
+    ]
+  },
+  {
+    "_id": "a17",
+    "name": "Harrison Ford",
+    "dob": "1988-04-27",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/17.jpg",
+    "movies": [
+      "m35",
+      "m36",
+      "m28",
+      "m37"
+    ]
+  },
+  {
+    "_id": "a18",
+    "name": "Carrie Fisher",
+    "dob": "1960-08-17",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/18.jpg",
+    "movies": [
+      "m41",
+      "m3",
+      "m29",
+      "m28"
+    ]
+  },
+  {
+    "_id": "a19",
+    "name": "Daisy Ridley",
+    "dob": "1985-08-13",
+    "nationality": "American",
+    "profile_img": "https://example.com/actors/19.jpg",
+    "movies": [
+      "m16",
+      "m23",
+      "m1"
+    ]
+  },
+  {
+    "_id": "a20",
+    "name": "Adam Driver",
+    "dob": "2000-01-18",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/20.jpg",
+    "movies": [
+      "m43",
+      "m34",
+      "m7",
+      "m33",
+      "m36"
+    ]
+  },
+  {
+    "_id": "a21",
+    "name": "Emma Watson",
+    "dob": "1966-05-14",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/21.jpg",
+    "movies": [
+      "m24",
+      "m18",
+      "m41",
+      "m37"
+    ]
+  },
+  {
+    "_id": "a22",
+    "name": "Daniel Radcliffe",
+    "dob": "1966-08-13",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/22.jpg",
+    "movies": [
+      "m44",
+      "m17",
+      "m8",
+      "m50"
+    ]
+  },
+  {
+    "_id": "a23",
+    "name": "Rupert Grint",
+    "dob": "1995-01-26",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/23.jpg",
+    "movies": [
+      "m21",
+      "m19",
+      "m10",
+      "m22",
+      "m40"
+    ]
+  },
+  {
+    "_id": "a24",
+    "name": "Alan Rickman",
+    "dob": "1975-02-07",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/24.jpg",
+    "movies": [
+      "m29",
+      "m21",
+      "m32"
+    ]
+  },
+  {
+    "_id": "a25",
+    "name": "Helena Bonham Carter",
+    "dob": "1992-02-18",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/25.jpg",
+    "movies": [
+      "m23",
+      "m25",
+      "m5",
+      "m12",
+      "m17"
+    ]
+  },
+  {
+    "_id": "a26",
+    "name": "Johnny Depp",
+    "dob": "1993-09-27",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/26.jpg",
+    "movies": [
+      "m43",
+      "m41"
+    ]
+  },
+  {
+    "_id": "a27",
+    "name": "Keira Knightley",
+    "dob": "1956-03-05",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/27.jpg",
+    "movies": [
+      "m14",
+      "m52",
+      "m39",
+      "m44",
+      "m7"
+    ]
+  },
+  {
+    "_id": "a28",
+    "name": "Orlando Bloom",
+    "dob": "1976-05-20",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/28.jpg",
+    "movies": [
+      "m21",
+      "m24",
+      "m32",
+      "m42"
+    ]
+  },
+  {
+    "_id": "a29",
+    "name": "Matt Damon",
+    "dob": "1954-01-13",
+    "nationality": "Canadian",
+    "profile_img": "https://example.com/actors/29.jpg",
+    "movies": [
+      "m39",
+      "m1",
+      "m19",
+      "m35"
+    ]
+  },
+  {
+    "_id": "a30",
+    "name": "Ben Affleck",
+    "dob": "1955-07-03",
+    "nationality": "American",
+    "profile_img": "https://example.com/actors/30.jpg",
+    "movies": [
+      "m45",
+      "m18",
+      "m50"
+    ]
+  },
+  {
+    "_id": "a31",
+    "name": "Anne Hathaway",
+    "dob": "1964-01-13",
+    "nationality": "American",
+    "profile_img": "https://example.com/actors/31.jpg",
+    "movies": [
+      "m13",
+      "m52"
+    ]
+  },
+  {
+    "_id": "a32",
+    "name": "Hugh Jackman",
+    "dob": "1961-02-06",
+    "nationality": "American",
+    "profile_img": "https://example.com/actors/32.jpg",
+    "movies": [
+      "m48",
+      "m31",
+      "m39",
+      "m5",
+      "m33"
+    ]
+  },
+  {
+    "_id": "a33",
+    "name": "Nicole Kidman",
+    "dob": "1974-05-18",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/33.jpg",
+    "movies": [
+      "m50",
+      "m27",
+      "m10"
+    ]
+  },
+  {
+    "_id": "a34",
+    "name": "Julia Roberts",
+    "dob": "1985-09-11",
+    "nationality": "American",
+    "profile_img": "https://example.com/actors/34.jpg",
+    "movies": [
+      "m46",
+      "m16",
+      "m41",
+      "m33",
+      "m19"
+    ]
+  },
+  {
+    "_id": "a35",
+    "name": "Meryl Streep",
+    "dob": "1967-12-22",
+    "nationality": "Canadian",
+    "profile_img": "https://example.com/actors/35.jpg",
+    "movies": [
+      "m34",
+      "m27"
+    ]
+  },
+  {
+    "_id": "a36",
+    "name": "Viola Davis",
+    "dob": "1955-03-19",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/36.jpg",
+    "movies": [
+      "m45",
+      "m34",
+      "m19"
+    ]
+  },
+  {
+    "_id": "a37",
+    "name": "Denzel Washington",
+    "dob": "1996-03-15",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/37.jpg",
+    "movies": [
+      "m6",
+      "m42",
+      "m51",
+      "m2"
+    ]
+  },
+  {
+    "_id": "a38",
+    "name": "Samuel L. Jackson",
+    "dob": "1956-07-08",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/38.jpg",
+    "movies": [
+      "m7",
+      "m45",
+      "m50"
+    ]
+  },
+  {
+    "_id": "a39",
+    "name": "Will Smith",
+    "dob": "1959-09-27",
+    "nationality": "American",
+    "profile_img": "https://example.com/actors/39.jpg",
+    "movies": [
+      "m14",
+      "m12",
+      "m22",
+      "m20",
+      "m28"
+    ]
+  },
+  {
+    "_id": "a40",
+    "name": "Joaquin Phoenix",
+    "dob": "1992-01-19",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/40.jpg",
+    "movies": [
+      "m43",
+      "m24",
+      "m31",
+      "m28"
+    ]
+  },
+  {
+    "_id": "a41",
+    "name": "Gal Gadot",
+    "dob": "1970-10-10",
+    "nationality": "American",
+    "profile_img": "https://example.com/actors/41.jpg",
+    "movies": [
+      "m27",
+      "m43",
+      "m34",
+      "m50"
+    ]
+  },
+  {
+    "_id": "a42",
+    "name": "Jason Momoa",
+    "dob": "1985-06-25",
+    "nationality": "Canadian",
+    "profile_img": "https://example.com/actors/42.jpg",
+    "movies": [
+      "m16",
+      "m50",
+      "m17",
+      "m37",
+      "m30"
+    ]
+  },
+  {
+    "_id": "a43",
+    "name": "Ezra Miller",
+    "dob": "1956-05-13",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/43.jpg",
+    "movies": [
+      "m25",
+      "m5",
+      "m37",
+      "m53"
+    ]
+  },
+  {
+    "_id": "a44",
+    "name": "Henry Cavill",
+    "dob": "1999-04-26",
+    "nationality": "British",
+    "profile_img": "https://example.com/actors/44.jpg",
+    "movies": [
+      "m1",
+      "m10"
+    ]
+  },
+  {
+    "_id": "a45",
+    "name": "Amy Adams",
+    "dob": "1988-01-19",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/45.jpg",
+    "movies": [
+      "m9",
+      "m14",
+      "m46"
+    ]
+  },
+  {
+    "_id": "a46",
+    "name": "Russell Crowe",
+    "dob": "1989-02-06",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/46.jpg",
+    "movies": [
+      "m40",
+      "m7",
+      "m18",
+      "m38",
+      "m48"
+    ]
+  },
+  {
+    "_id": "a47",
+    "name": "Cate Blanchett",
+    "dob": "1990-08-01",
+    "nationality": "American",
+    "profile_img": "https://example.com/actors/47.jpg",
+    "movies": [
+      "m9",
+      "m47",
+      "m14"
+    ]
+  },
+  {
+    "_id": "a48",
+    "name": "Natalie Portman",
+    "dob": "1952-09-14",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/48.jpg",
+    "movies": [
+      "m13",
+      "m41",
+      "m19",
+      "m12"
+    ]
+  },
+  {
+    "_id": "a49",
+    "name": "Ewan McGregor",
+    "dob": "1961-12-01",
+    "nationality": "Australian",
+    "profile_img": "https://example.com/actors/49.jpg",
+    "movies": [
+      "m27",
+      "m22",
+      "m13"
+    ]
+  },
+  {
+    "_id": "a50",
+    "name": "Liam Neeson",
+    "dob": "1995-12-10",
+    "nationality": "American",
+    "profile_img": "https://example.com/actors/50.jpg",
+    "movies": [
+      "m26",
+      "m52"
+    ]
+  }
+]
